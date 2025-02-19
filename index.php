@@ -2,7 +2,7 @@
 <head>
 <style>
 fieldset {
-  background-color: #eeeeee;
+  background-color: oldlace;
   
   
 }
@@ -15,16 +15,15 @@ legend {
 
 input {
   margin: 5px;
-  color: darkblue;
 
 }
 </style>
 </head>
 <body>
 
-<form action="/action_page.php">
+<form action="action_page.php" method="POST"> 
   <fieldset>
-    <legend>Personalia:</legend>
+    <legend>Form ni Mark:</legend>
     <label for="fname">First name:</label>
     <input type="text" id="fname" name="fname"><br><br>
     <label for="lname">Last name:</label>
@@ -33,7 +32,7 @@ input {
     <input type="email" id="email" name="email"><br><br>
     <label for="birthday">Birthday:</label>
     <input type="date" id="birthday" name="birthday"><br><br>
-    <input type="submit" value="Submit">
+    <input type="submit" value="Save Record" name="submit record"> 
   </fieldset>
 </form>
 
